@@ -39,16 +39,15 @@ export default function EventArticle() {
             soi.
           </span>
           <p style={{ textAlign: 'justify' }}>
-            Au Cameroun et en Afrique, de manière générale, les familles ont un
-            faible culture du livre d'eveil et de divertissement. pendant
-            longtemps les enfants africains ont été exposé à des modèles
-            externes à nos réalités socioculturelle, ce qui à causer une perte
-            et repère identitaire de confiance en soi pour les enfants. nous
-            avons alors pensé qu'il était important de mettre en place une
-            activité qui va non seulement aider les enfants à découvrir la joie
-            et le pouvoir de la lecture-plaisir, mais aussi les permettre de
-            côtoyer des héros et héroïnes et des personnage auquel ils peuvent
-            s'identifier.
+            Au Cameroun et en Afrique de manière générale, les familles ont un
+            faible culture du livre d'eveil et de divertissement. Pendant
+            longtemps, les enfants africains ont été exposé à des modèles
+            externes à nos réalités socioculturelle. Ce qui à causer une perte
+            de repère identitaire et de confiance en soi. Nous avons alors pensé
+            qu'il était important de mettre en place une activité qui va non
+            seulement aider les enfants à découvrir la joie et le pouvoir de la
+            lecture-plaisir, mais aussi leur permettre d'avoir des livres avec
+            des héros et héroïnes auxquels ils peuvent s'identifier.
           </p>
           <p style={{ margin: '28px 0' }}>
             <div>
