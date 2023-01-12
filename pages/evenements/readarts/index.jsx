@@ -66,14 +66,12 @@ export default function EventArticle() {
             </div>
           </p>
           <p style={{ textAlign: 'justify' }}>
-            Partie de lecture hebdomadaire avec les enfants de notre entourage
-            dans mon salon en 2019 nous avons commencé nous avons effectué le
-            premier atelier officiel le un autre 2020 au musée ethnographique
-            des peuples de la forêt d'Afrique centrale avec environ 30 enfants
-            participants et après ça nous avons fait d'autres musées notamment
-            la black étude et puis nous sommes allés à Douala donc à ce jour
-            nous sommes à plus de 10 ateliers pour plus de 300 enfants qui sont
-            passés aux ateliers
+            Des lectures hebdomadaires avec les enfants de notre entourage dans
+            mon salon en 2019, nous avons organisé notre premier atelier
+            officiel en Août 2020 au musée ethnographique et d'histoire des
+            peuples de la forêt d'Afrique centrale avec environ 30 enfants
+            participants. À ce jour, nous sommes à plus de 10 Ateliers Read'Arts
+            et près de 300 enfants impactés.
           </p>
         </Paragraph>
         <Paragraph>
