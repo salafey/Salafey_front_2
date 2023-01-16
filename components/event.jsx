@@ -52,7 +52,9 @@ export function SpecialEvent({ data, href }) {
   return (
     <section
       id="specialEvent"
-      style={{ backgroundImage: `url(${picture.url})` }}
+      style={{
+        backgroundImage: `url(https://media.graphassets.com/66aXX2RLqVRhTYuPmFqw)`,
+      }}
     >
       <div className="container">
         <div className="right">

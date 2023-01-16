@@ -77,7 +77,7 @@ body {
   font-weight: 700;
   font-size: 2.3rem;
   text-transform: uppercase;
-  line-height: 3rem;
+  line-height: 2.5rem;
 }
 
 .titre_2 {
@@ -295,6 +295,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: local;
+  background-position: center;
   transition: all 0.01s ease;
 
   .container {
