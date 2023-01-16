@@ -165,13 +165,13 @@ export default function Apropos() {
               image={'https://media.graphassets.com/yBpiAdbQV2Db7bYLt8JQ'}
               nom="Nadine Mekougoum"
               role={
-                'Fondatrice de l’association Harambee Africa | Les Librairies M’wina,'
+                'Fondatrice de l’association Harambee Africa | Les Librairies M’wina, Directrice du SALAFEY'
               }
             />
             <TeamMember
               image={'https://media.graphassets.com/RtvSG8xuSCSfYAc3JIRw'}
               nom="Ray NDEBI"
-              role={'Coordonateur | Partenariat'}
+              role={'Développement et Prospective'}
             />
             <TeamMember
               image={'https://media.graphassets.com/WVGaz53UQMaeCZpqLYxA'}
