@@ -39,20 +39,25 @@ export default function Apropos() {
         <SousTitre_1
           style={{ width: '100%', textAlign: 'center', margin: '24px 0' }}
         >
-          Pourquoi Le SALAFEY ?
+          De quoi sera fait <br />
+          l'identité de l'enfant africain ?
         </SousTitre_1>
         <section style={{ marginBottom: 64 }}>
           <Paragraph>
             <span className="quote">
-              L'objectif des Ateliers Read'Arts est de promouvoir au travers des
-              activités (la lecture, les jeux concours, etc...) la découverte
-              des oeuvres Africaines.
+              L' un des premiers objectifs du Salon du Livre Africain pour
+              Enfants de Yaoundé est de sensibiliser les familles et éducateurs
+              sur la place du livre et la lecture plaisir pour transmettre les
+              valeurs socio-culturelles aux enfants. 
             </span>
-            Pendant longtemps, les enfants africains ont été exposés à des
-            modèles externes à leurs réalités socio-culturelles à travers la
-            télévision, les jouets et même leurs livres à images. Ce qui a causé
-            un complexe d’infériorité, une perte de repères identitaires, une
-            faible confiance en soi etc…
+             Le SALAFEY 2022 a révélé toute  sa splendeur sur l’esplanade de la
+            salle des convivialités, où une vingtaine d’éditeurs, libraires,
+            entreprises de distributions de livres et de jouets et jeux
+            africains pour enfants, auteurs, et promoteurs culturels ont eu
+            rendez-vous avec le public venu nombreux. La ville de Yaoundé a
+            ainsi célébré les livres africains pour enfants avec un  programme
+            riche en spectacles de contes, dédicaces , rencontres, tables rondes
+            et de magnifiques moments de bonheur avec les tout petits.
           </Paragraph>
         </section>
       </div>
