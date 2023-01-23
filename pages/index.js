@@ -108,7 +108,10 @@ export default function Home({
             </div> */}
           </div>
         </Banniere>
-        <Telecharger url="https://media.graphassets.com/RVQr8qpSi62xJoWqZg1M" href = "https://media.graphassets.com/MxEQJJvzRDqKLycz44b1" />
+        <Telecharger
+          url="https://media.graphassets.com/F6O6xS3pTqunNwm63Vww"
+          href="https://media.graphassets.com/aqRC81h1QLOpHR4c6Gom"
+        />
         <section>
           <Apropos />
         </section>
