@@ -1,3 +1,4 @@
+import TeamMember from "./teamMember";
 import { SousTitre_1 } from "./titre";
 
 export default function Team(){

@@ -6,6 +6,7 @@ import { Vide } from '../../components/vide';
 import Data from './event.json';
 
 import { CountDown } from '../../constantes/countdown';
+import Head from 'next/head';
 
 export default function Evenement() {
   const ArticleListe = Data.map((el, key) => (
@@ -21,6 +22,47 @@ export default function Evenement() {
 
   return (
     <div>
+      <Head>
+        <title>SALAFEY 2022 | Evenements</title>
+        <meta
+          name="title"
+          content="SALAFEY - Le Salon du Livre Africain pour les Enfants de Yaoundé"
+        />
+        <meta
+          name="description"
+          content="le SALAFEY a pour objectif de bâtir une génération d'enfants Africains avec une identité culturelle positive. Sensibiliser, impliquer et accompagner les parents, les éducateurs et les écoles à l'éveil, la promotion de la lecture et l'éducation consciente des enfants. Éveiller les enfants à la lecture, à la découverte culturelle et la confiance en soi en mettant à leur disposition le maximum de livres, jouets, jeux ainsi que tout autre contenu éducatif et de divertissement qui participe à construire leur identité culturelle positive"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://salafey.net/" />
+        <meta
+          property="og:title"
+          content="SALAFEY - Le Salon du Livre Africain pour les Enfants de Yaoundé"
+        />
+        <meta
+          property="og:description"
+          content="le SALAFEY a pour objectif de bâtir une génération d'enfants Africains avec une identité culturelle positive. Sensibiliser, impliquer et accompagner les parents, les éducateurs et les écoles à l'éveil, la promotion de la lecture et l'éducation consciente des enfants. Éveiller les enfants à la lecture, à la découverte culturelle et la confiance en soi en mettant à leur disposition le maximum de livres, jouets, jeux ainsi que tout autre contenu éducatif et de divertissement qui participe à construire leur identité culturelle positive"
+        />
+        <meta
+          property="og:image"
+          content="https://media.graphassets.com/66aXX2RLqVRhTYuPmFqw"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://salafey.net/" />
+        <meta
+          property="twitter:title"
+          content="SALAFEY - Le Salon du Livre Africain pour les Enfants de Yaoundé"
+        />
+        <meta
+          property="twitter:description"
+          content="le SALAFEY a pour objectif de bâtir une génération d'enfants Africains avec une identité culturelle positive. Sensibiliser, impliquer et accompagner les parents, les éducateurs et les écoles à l'éveil, la promotion de la lecture et l'éducation consciente des enfants. Éveiller les enfants à la lecture, à la découverte culturelle et la confiance en soi en mettant à leur disposition le maximum de livres, jouets, jeux ainsi que tout autre contenu éducatif et de divertissement qui participe à construire leur identité culturelle positive"
+        />
+        <meta
+          property="twitter:image"
+          content="https://media.graphassets.com/66aXX2RLqVRhTYuPmFqw"
+        />
+      </Head>
       <section class="bannierePage">
         <EventProche
           image={'https://media.graphassets.com/8cGoCZsERSq3Qw9SBR3S'}
@@ -72,47 +114,6 @@ export function EventProche({ image }) {
 
   return (
     <>
-    <Head>
-        <title>SALAFEY 2022 | Evenements</title>
-        <meta
-          name="title"
-          content="SALAFEY - Le Salon du Livre Africain pour les Enfants de Yaoundé"
-        />
-        <meta
-          name="description"
-          content="le SALAFEY a pour objectif de bâtir une génération d'enfants Africains avec une identité culturelle positive. Sensibiliser, impliquer et accompagner les parents, les éducateurs et les écoles à l'éveil, la promotion de la lecture et l'éducation consciente des enfants. Éveiller les enfants à la lecture, à la découverte culturelle et la confiance en soi en mettant à leur disposition le maximum de livres, jouets, jeux ainsi que tout autre contenu éducatif et de divertissement qui participe à construire leur identité culturelle positive"
-        />
-
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://salafey.net/" />
-        <meta
-          property="og:title"
-          content="SALAFEY - Le Salon du Livre Africain pour les Enfants de Yaoundé"
-        />
-        <meta
-          property="og:description"
-          content="le SALAFEY a pour objectif de bâtir une génération d'enfants Africains avec une identité culturelle positive. Sensibiliser, impliquer et accompagner les parents, les éducateurs et les écoles à l'éveil, la promotion de la lecture et l'éducation consciente des enfants. Éveiller les enfants à la lecture, à la découverte culturelle et la confiance en soi en mettant à leur disposition le maximum de livres, jouets, jeux ainsi que tout autre contenu éducatif et de divertissement qui participe à construire leur identité culturelle positive"
-        />
-        <meta
-          property="og:image"
-          content="https://media.graphassets.com/66aXX2RLqVRhTYuPmFqw"
-        />
-
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://salafey.net/" />
-        <meta
-          property="twitter:title"
-          content="SALAFEY - Le Salon du Livre Africain pour les Enfants de Yaoundé"
-        />
-        <meta
-          property="twitter:description"
-          content="le SALAFEY a pour objectif de bâtir une génération d'enfants Africains avec une identité culturelle positive. Sensibiliser, impliquer et accompagner les parents, les éducateurs et les écoles à l'éveil, la promotion de la lecture et l'éducation consciente des enfants. Éveiller les enfants à la lecture, à la découverte culturelle et la confiance en soi en mettant à leur disposition le maximum de livres, jouets, jeux ainsi que tout autre contenu éducatif et de divertissement qui participe à construire leur identité culturelle positive"
-        />
-        <meta
-          property="twitter:image"
-          content="https://media.graphassets.com/66aXX2RLqVRhTYuPmFqw"
-        />
-      </Head>
       <div className="vide"></div>
       <div className="eventProche" style={{ backgroundImage: `url(${image})` }}>
         <div className="container">

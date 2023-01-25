@@ -3,6 +3,7 @@ import { Banniere_second } from '../../components/banniere';
 import Contact from '../../components/contact';
 import { EvenIntro, EventComponent_2 } from '../../components/event';
 import Paragraph from '../../components/paragraph';
+import Team from '../../components/team';
 import TeamMember from '../../components/team';
 import Titre, {
   Grand_Titre,
@@ -274,32 +275,7 @@ export default function Apropos() {
           </p>
         </EventPartenaire>
       </section>
-      <section id="team">
-        <div className="container">
-          <SousTitre_1 style={{ marginBottom: 36, color: 'white' }}>
-            Notre Equipe
-          </SousTitre_1>
-          <div className="grid">
-            <TeamMember
-              image={'https://media.graphassets.com/yBpiAdbQV2Db7bYLt8JQ'}
-              nom="Nadine Mekougoum"
-              role={
-                'Fondatrice de l’association Harambee Africa | Les Librairies M’wina,'
-              }
-            />
-            <TeamMember
-              image={'https://media.graphassets.com/RtvSG8xuSCSfYAc3JIRw'}
-              nom="Ray NDEBI"
-              role={'Coordonateur | Partenariat'}
-            />
-            <TeamMember
-              image={'https://media.graphassets.com/WVGaz53UQMaeCZpqLYxA'}
-              nom="Pauline ONGONO"
-              role={'Communication et Relation publique'}
-            />
-          </div>
-        </div>
-      </section>
+      <Team />
       <Contact />
     </div>
   );

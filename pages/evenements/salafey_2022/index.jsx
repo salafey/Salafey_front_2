@@ -1,8 +1,10 @@
+import Head from 'next/head';
 import { EventPartenaire } from '../../../components/apropos';
 import { Banniere_second } from '../../../components/banniere';
 import Contact from '../../../components/contact';
 import { EvenIntro, EventComponent_2 } from '../../../components/event';
 import Paragraph from '../../../components/paragraph';
+import Team from '../../../components/team';
 import TeamMember from '../../../components/team';
 import Titre, {
   Grand_Titre,
@@ -211,32 +213,7 @@ export default function Apropos() {
           url="https://media.graphassets.com/RVQr8qpSi62xJoWqZg1M"
           href="https://media.graphassets.com/MxEQJJvzRDqKLycz44b1"
         />
-        <section id="team">
-          <div className="container">
-            <SousTitre_1 style={{ marginBottom: 36, color: 'white' }}>
-              Notre Equipe
-            </SousTitre_1>
-            <div className="grid">
-              <TeamMember
-                image={'https://media.graphassets.com/yBpiAdbQV2Db7bYLt8JQ'}
-                nom="Nadine Mekougoum"
-                role={
-                  'Fondatrice de l’association Harambee Africa | Les Librairies M’wina, Directrice du SALAFEY'
-                }
-              />
-              <TeamMember
-                image={'https://media.graphassets.com/RtvSG8xuSCSfYAc3JIRw'}
-                nom="Ray NDEBI"
-                role={'Développement et Prospective'}
-              />
-              <TeamMember
-                image={'https://media.graphassets.com/WVGaz53UQMaeCZpqLYxA'}
-                nom="Pauline ONGONO"
-                role={'Communication et Relation publique'}
-              />
-            </div>
-          </div>
-        </section>
+        <Team />
         <Contact />
       </div>
     </>
