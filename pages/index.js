@@ -109,7 +109,7 @@ export default function Home({
           </div>
         </Banniere>
         <Telecharger
-          url="https://media.graphassets.com/F6O6xS3pTqunNwm63Vww"
+          url="https://media.graphassets.com/kUz1xrJZS2mP625KZ3EL"
           href="https://media.graphassets.com/aqRC81h1QLOpHR4c6Gom"
         />
         <section>
