@@ -187,7 +187,7 @@ export default function Home({
                   </div>
                 </div>
                 <div className="texte">
-                  Creant un solide reseaux africain d'auteurs pour le changement
+                  Créant un solide reseaux africain d'auteurs pour le changement
                   social par le livre
                 </div>
               </div>
@@ -212,14 +212,14 @@ export default function Home({
                   <h2>
                     <ul>
                       <li>
-                        Les Maisons d'édition qui produisent la litterature
+                        Les Maisons d'édition qui produisent la littérature
                         jeunesse
                       </li>
                       <li>
-                        Les librairies, Bibliotheque et association litteraires
+                        Les librairies, Bibliotheque et association littéraires
                         et culturelles
                       </li>
-                      <li>Auteurs, Ecoles et famille</li>
+                      <li>Auteurs, Écoles et famille</li>
                       <li>Diaspora Africaine et Entreprise</li>
                     </ul>
                   </h2>
