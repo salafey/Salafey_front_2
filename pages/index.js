@@ -89,7 +89,7 @@ export default function Home({
             </span>
             <h2 style={{ fontSize: 24, color: 'white' }}>
               Batir une génération d'enfants Africains avec une identité
-              culturelle positive
+              culturelle positive.
             </h2>
             {/* <div className={'button'}>
               <span>Avoir plus d'Information</span>
@@ -141,7 +141,7 @@ export default function Home({
         <section id="ambitions">
           <div className="container">
             <SousTitre_2 style={{ marginBottom: 36 }}>
-              Notre Ambition sur le long Term
+              Notre Ambition sur le long Terme
             </SousTitre_2>
             <h3>
               Devenir un rendez-vous majeur des acteurs du livre Jeunesse et ses
@@ -160,7 +160,7 @@ export default function Home({
                   </div>
                 </div>
                 <div className="texte">
-                  Offrant un espace convivial d'echanges entre les differnts
+                  Offrant un espace convivial d'échanges entre les differents
                   acteurs.
                 </div>
               </div>
@@ -187,8 +187,8 @@ export default function Home({
                   </div>
                 </div>
                 <div className="texte">
-                  Creant un solide reseaux africain d'auters pour le changement
-                  social pae le livre
+                  Creant un solide reseaux africain d'auteurs pour le changement
+                  social par le livre
                 </div>
               </div>
             </div>
@@ -212,7 +212,7 @@ export default function Home({
                   <h2>
                     <ul>
                       <li>
-                        Les Maisons d'edition qui produisent la litterature
+                        Les Maisons d'édition qui produisent la litterature
                         jeunesse
                       </li>
                       <li>

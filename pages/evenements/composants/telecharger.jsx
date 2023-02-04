@@ -8,7 +8,13 @@ export default function Telecharger({ url, href }) {
     >
       <div className="container">
         <div className="left">
-          <SousTitre_1>Découvrez le salafey mag </SousTitre_1>
+          <SousTitre_1
+            style={{
+              lineHieght: 1.1,
+            }}
+          >
+            Découvrez le salafey mag{' '}
+          </SousTitre_1>
           <button>
             <a href={href}>Télécharger maintenant</a>
           </button>

@@ -20,7 +20,7 @@
     font-weight: 700;
     font-size: 2.3rem;
     text-transform: uppercase;
-    line-height: 3rem;
+    line-height: 2rem;
   }
 
   .titre_2 {
@@ -96,6 +96,42 @@
       &::after {
         background-color: rgba(0, 0, 0, 0.562);
         z-index: 5;
+      }
+    }
+  }
+
+  .telechargement {
+    width: 100%;
+    height: 400px;
+    background-color: silver;
+    background-repeat: no-repeat;
+    background-position: 10%;
+    background-size: cover;
+
+    .container {
+      display: flex;
+      align-items: center;
+      height: 100%;
+
+      .left {
+        width: 50%;
+        height: auto;
+      }
+
+      button {
+        padding: 12px 20px;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 50px;
+        border: none;
+        outline: 1px solid transparent;
+        margin-top: 12px;
+        text-transform: uppercase;
+        background-color: #4e7001;
+
+        a {
+          color: white;
+        }
       }
     }
   }
